@@ -1,0 +1,26 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "mocp/emuseum-object",
+	"version": "0.1.0",
+	"title": "eMuseum Object",
+	"category": "embed",
+	"icon": "format-image",
+	"description": "Embed an eMuseum object.",
+	"supports": {
+		"align": true,
+		"align_text": false,
+		"html": false
+	},
+	"textdomain": "mocp",
+	"editorScript": "file:./build/index.js",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"objectId": {
+			"type": "integer"
+		},
+		"objectTitle": {
+			"type": "string"
+		}
+	}
+}
